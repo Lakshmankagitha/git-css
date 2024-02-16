@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <div id="mainDiv">
+        <div>
+          <span><input type="checkbox" > <i class="material-symbols-outlined">tv_options_edit_channels</i></span>
+          
+        Apna college</div>
+        <i class="material-symbols-outlined" >close</i>
+        <div id="divId"><i class="material-symbols-outlined" >gallery_thumbnail</i><a href="">Gallery</a></div>
+        <div id="divId"><i class="material-symbols-outlined">article_shortcut</i><a href="">Shortcuts</a></div>
+        <div id="divId"><i class="material-symbols-outlined">photo_library</i><a href="">exhibits</a></div>
+        <div id="divId"><i class="material-symbols-outlined">calendar_month</i><a href="">events</a></div>
+        <div id="divId"><i class="material-symbols-outlined">storefront</i><a href="">Store</a></div>
+        <div id="divId"><i class="material-symbols-outlined">call</i><a href="">Contact</a></div>
+        <div id="divId"><i class="material-symbols-outlined">forum</i><a href="">Feedback</a></div>
+     
+    </div>
+
+    
+</body>
+</html>
+
+
+a {
+   text-decoration: none;
+   color:whitesmoke
+}
+#divId{
+    height: 40px;
+    width: 100px;
+
+}
+#mainDiv{
+   border: 1px;
+   background-color: black;
+   color:white;
+    height: 500px;
+    width: 500px;
+}
+
+
